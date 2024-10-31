@@ -8,8 +8,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-index-B745M2Fi.css
-index-DlSmZjmC.js
+dist
+dist-ssr
 *.local
 
 # Editor directories and files
