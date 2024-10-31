@@ -3,44 +3,52 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'EatThatFrog',
+    title: "EatThatFrog",
     description: 'A productivity tool based on the "Eat That Frog" methodology',
-    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&q=80&w=800',
-    liveUrl: 'https://eatthatfrog.netlify.app/',
-    codeUrl: 'https://github.com/glitch7584/eatthatfrog',
-    tags: ['React', 'Productivity', 'Task Management']
+    image: "imgs/etf.png",
+    liveUrl: "https://eatthatfrog.netlify.app/",
+    codeUrl: "https://github.com/glitch7584/eatthatfrog",
+    tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
-    title: 'ClimeCast',
-    description: 'Weather forecasting application with detailed meteorological data',
-    image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&q=80&w=800',
-    codeUrl: 'https://github.com/Arkadipta-Kundu/ClimeCast',
-    tags: ['Weather API', 'React', 'Forecasting']
+    title: "ClimeCast",
+    description:
+      "Weather forecasting application with detailed meteorological data",
+    image: "imgs/cc.png",
+    codeUrl: "https://github.com/Arkadipta-Kundu/ClimeCast",
+    tags: ["REST API", "JS", "Express", "Bootstrap"],
   },
   {
-    title: 'SkyRunner',
-    description: 'An engaging web-based runner game with dynamic obstacles',
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800',
-    liveUrl: 'https://skyrunnerbyglitch.netlify.app/',
-    codeUrl: 'https://github.com/glitch7584/SkyRunner',
-    tags: ['Game Development', 'JavaScript', 'HTML5']
+    title: "SkyRunner",
+    description: "An engaging web-based runner game with dynamic obstacles",
+    image: "imgs/sr.png",
+    liveUrl: "https://skyrunnerbyglitch.netlify.app/",
+    codeUrl: "https://github.com/glitch7584/SkyRunner",
+    tags: ["Game Development", "Python", "HTML5"],
   },
   {
-    title: 'CallBreakScoreTracker',
-    description: 'Score tracking application for the card game CallBreak',
-    image: 'https://images.unsplash.com/photo-1529480384838-c1681c84aca5?auto=format&fit=crop&q=80&w=800',
-    liveUrl: 'https://callbreaktimer.netlify.app/',
-    codeUrl: 'https://github.com/Arkadipta-Kundu/CallBreakScoreTracker',
-    tags: ['React', 'Game Tools', 'Score Tracking']
+    title: "CallBreakScoreTracker",
+    description: "Score tracking application for the card game CallBreak",
+    image: "imgs/cbst.png",
+    liveUrl: "https://callbreaktimer.netlify.app/",
+    codeUrl: "https://github.com/Arkadipta-Kundu/CallBreakScoreTracker",
+    tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
-    title: 'Voting System',
-    description: 'Online polling system with real-time vote tracking',
-    image: 'https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&q=80&w=800',
-    liveUrl: 'https://onlinepollingsystem-sigma.vercel.app/',
-    codeUrl: 'https://github.com/Arkadipta-Kundu/voteingsystem',
-    tags: ['Next.js', 'Real-time', 'Voting']
-  }
+    title: "Voting System",
+    description: "Online polling system with real-time vote tracking",
+    image: "imgs/vs.png",
+    liveUrl: "https://onlinepollingsystem-sigma.vercel.app/",
+    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
+    tags: ["HTML", "JS","Localstorage", "Bootstrap"],
+  },
+  {
+    title: "Parmalist",
+    description: "a to dolist app made using ",
+    image: "imgs/pl.png",
+    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
+    tags: ["Node.js", "Express", "PostgreSQL", "EJS templating"],
+  },
 ];
 
 export function Projects() {

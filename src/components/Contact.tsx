@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, BookOpen, Code } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, BookOpen, Code, Video } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -37,6 +37,18 @@ const socialLinks = [
     url: 'https://arkadiptakundu.hashnode.dev/',
     icon: <BookOpen />,
     username: 'arkadiptakundu.hashnode.dev'
+  },
+  {
+    name: 'Dev.to',
+    url: 'https://dev.to/arkadiptakundu',
+    icon: <Code />,
+    username: 'arkadiptakundu'
+  },
+  {
+    name: 'YouTube',
+    url: 'https://www.youtube.com/@arkadipta_kundu',
+    icon: <Video />,
+    username: '@arkadipta_kundu'
   }
 ];
 
