@@ -3,12 +3,19 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: "EatThatFrog",
-    description: 'A productivity tool based on the "Eat That Frog" methodology',
-    image: "imgs/etf.png",
-    liveUrl: "https://eatthatfrog.netlify.app/",
-    codeUrl: "https://github.com/glitch7584/eatthatfrog",
-    tags: ["HTML", "CSS", "JS", "Bootstrap"],
+    title: "Voting System",
+    description: "Online polling system with real-time vote tracking",
+    image: "imgs/vs.png",
+    liveUrl: "https://onlinepollingsystem-sigma.vercel.app/",
+    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
+    tags: ["HTML", "JS", "Localstorage", "Bootstrap"],
+  },
+  {
+    title: "Parmalist",
+    description: "a to dolist app made using ",
+    image: "imgs/pl.png",
+    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
+    tags: ["Node.js", "Express", "PostgreSQL", "EJS templating"],
   },
   {
     title: "ClimeCast",
@@ -19,12 +26,12 @@ const projects = [
     tags: ["REST API", "JS", "Express", "Bootstrap"],
   },
   {
-    title: "SkyRunner",
-    description: "An engaging web-based runner game with dynamic obstacles",
-    image: "imgs/sr.png",
-    liveUrl: "https://skyrunnerbyglitch.netlify.app/",
-    codeUrl: "https://github.com/glitch7584/SkyRunner",
-    tags: ["Game Development", "Python", "HTML5"],
+    title: "EatThatFrog",
+    description: 'A productivity tool based on the "Eat That Frog" methodology',
+    image: "imgs/etf.png",
+    liveUrl: "https://eatthatfrog.netlify.app/",
+    codeUrl: "https://github.com/glitch7584/eatthatfrog",
+    tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
     title: "CallBreakScoreTracker",
@@ -35,19 +42,12 @@ const projects = [
     tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
-    title: "Voting System",
-    description: "Online polling system with real-time vote tracking",
-    image: "imgs/vs.png",
-    liveUrl: "https://onlinepollingsystem-sigma.vercel.app/",
-    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
-    tags: ["HTML", "JS","Localstorage", "Bootstrap"],
-  },
-  {
-    title: "Parmalist",
-    description: "a to dolist app made using ",
-    image: "imgs/pl.png",
-    codeUrl: "https://github.com/Arkadipta-Kundu/voteingsystem",
-    tags: ["Node.js", "Express", "PostgreSQL", "EJS templating"],
+    title: "SkyRunner",
+    description: "An engaging web-based runner game with dynamic obstacles",
+    image: "imgs/sr.png",
+    liveUrl: "https://skyrunnerbyglitch.netlify.app/",
+    codeUrl: "https://github.com/glitch7584/SkyRunner",
+    tags: ["Game Development", "Python", "HTML5"],
   },
 ];
 
