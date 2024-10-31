@@ -8,7 +8,7 @@ export function Hero() {
         <div className="mb-8">
           <img
             src="https://imgur.com/a/zLF6qop"
-            alt="Arkadipta Kundu"
+            alt="Arkadipta Kundu3"
             className="w-32 h-32 rounded-full mx-auto object-cover ring-4 ring-blue-500/30"
           />
         </div>
