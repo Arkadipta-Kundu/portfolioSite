@@ -58,7 +58,7 @@ export function Contact() {
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
         <p className="text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-          Feel free to reach out for collaborations or just a friendly hello
+          Khow more about what i do ?
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {socialLinks.map((link) => (
