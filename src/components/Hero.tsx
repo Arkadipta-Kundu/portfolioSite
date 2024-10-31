@@ -7,7 +7,7 @@ export function Hero() {
       <div className="max-w-3xl mx-auto">
         <div className="mb-8">
           <img
-            src="https://drive.google.com/file/d/18NEfrRt3FGCTg1npec3i-hYq4bcNswCc/view?usp=sharing"
+            src=""
             alt="Arkadipta Kundu"
             className="w-32 h-32 rounded-full mx-auto object-cover ring-4 ring-blue-500/30"
           />
