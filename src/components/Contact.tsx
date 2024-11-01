@@ -36,7 +36,7 @@ const socialLinks = [
     name: 'Blog',
     url: 'https://arkadiptakundu.hashnode.dev/',
     icon: <BookOpen />,
-    username: 'arkadiptakundu.hashnode.dev'
+    username: 'Arka Shares'
   },
   {
     name: 'Dev.to',
