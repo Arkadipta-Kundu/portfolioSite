@@ -55,7 +55,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold mb-12">Projects</h2>
+        <h2 className="text-3xl font-bold mb-12">Latest Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.title} className="bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300">
@@ -98,6 +98,9 @@ export function Projects() {
             </div>
           ))}
         </div>
+        <p className="text-center text-gray-600 dark:text-gray-400 mt-8">
+          These are my latest projects. You can find more on my <a href="https://github.com/Arkadipta-Kundu" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">GitHub</a>.
+        </p>
       </div>
     </section>
   );
