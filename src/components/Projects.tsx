@@ -3,6 +3,14 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "Library Management System",
+    description: "Library Management System with real-time Data management",
+    image: "imgs/lms.png",
+    liveUrl: "https://library-management-system-alpha-pied.vercel.app/",
+    codeUrl: "https://github.com/Arkadipta-Kundu/LibraryManagementSystem.git",
+    tags: ["HTML","CSS", "JS", "Localstorage", "Bootstrap"],
+  },
+  {
     title: "Voting System",
     description: "Online polling system with real-time vote tracking",
     image: "imgs/vs.png",
@@ -31,14 +39,6 @@ const projects = [
     image: "imgs/etf.png",
     liveUrl: "https://eatthatfrog.netlify.app/",
     codeUrl: "https://github.com/glitch7584/eatthatfrog",
-    tags: ["HTML", "CSS", "JS", "Bootstrap"],
-  },
-  {
-    title: "CallBreakScoreTracker",
-    description: "Score tracking application for the card game CallBreak",
-    image: "imgs/cbst.png",
-    liveUrl: "https://callbreaktimer.netlify.app/",
-    codeUrl: "https://github.com/Arkadipta-Kundu/CallBreakScoreTracker",
     tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
