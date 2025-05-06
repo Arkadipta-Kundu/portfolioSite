@@ -3,12 +3,20 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "Projo",
+    description: "A fully scalable OpenSource project management tool",
+    image: "imgs/projo.png",
+    liveUrl: "www.projo.great-site.net",
+    codeUrl: "https://github.com/Arkadipta-Kundu/projo",
+    tags: ["HTML", "CSS", "PHP", "MySql", "Tellwind"],
+  },
+  {
     title: "Library Management System",
     description: "Library Management System with real-time Data management",
     image: "imgs/lms.png",
     liveUrl: "https://library-management-system-alpha-pied.vercel.app/",
     codeUrl: "https://github.com/Arkadipta-Kundu/LibraryManagementSystem.git",
-    tags: ["HTML","CSS", "JS", "Localstorage", "Bootstrap"],
+    tags: ["HTML", "CSS", "JS", "Localstorage", "Bootstrap"],
   },
   {
     title: "Voting System",
@@ -32,14 +40,6 @@ const projects = [
     image: "imgs/cc.png",
     codeUrl: "https://github.com/Arkadipta-Kundu/ClimeCast",
     tags: ["REST API", "JS", "Express", "Bootstrap"],
-  },
-  {
-    title: "EatThatFrog",
-    description: 'A productivity tool based on the "Eat That Frog" methodology',
-    image: "imgs/etf.png",
-    liveUrl: "https://eatthatfrog.netlify.app/",
-    codeUrl: "https://github.com/glitch7584/eatthatfrog",
-    tags: ["HTML", "CSS", "JS", "Bootstrap"],
   },
   {
     title: "SkyRunner",
