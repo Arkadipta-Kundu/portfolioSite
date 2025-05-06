@@ -6,7 +6,7 @@ const projects = [
     title: "Projo",
     description: "A fully scalable OpenSource project management tool for developers",
     image: "imgs/projo.png",
-    liveUrl: "www.projo.great-site.net",
+    liveUrl: "https://www.projo.great-site.net/?i=1",
     codeUrl: "https://github.com/Arkadipta-Kundu/projo",
     tags: ["HTML", "CSS", "Js","PHP", "MySql", "Tellwind"],
   },
