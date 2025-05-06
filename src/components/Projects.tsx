@@ -4,11 +4,11 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
   {
     title: "Projo",
-    description: "A fully scalable OpenSource project management tool",
+    description: "A fully scalable OpenSource project management tool for developers",
     image: "imgs/projo.png",
     liveUrl: "www.projo.great-site.net",
     codeUrl: "https://github.com/Arkadipta-Kundu/projo",
-    tags: ["HTML", "CSS", "PHP", "MySql", "Tellwind"],
+    tags: ["HTML", "CSS", "Js","PHP", "MySql", "Tellwind"],
   },
   {
     title: "Library Management System",
